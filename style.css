@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+.card {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background: white;
+}
+.container {
+  padding-inline: 10px;
+}
+.profile-picture {
+  padding: 10px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 10px;
+}
+.btn-primary {
+  padding: 10px;
+  background: rgb(38, 108, 239);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 500ms;
+}
+.btn-primary:hover {
+  background: rgb(38, 108, 239, 0.8);
+  transform: scale(1.02);
+}
